@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Components &middot; Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Olga Pigareva</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li ><a href="index.html">About</a></li>
+                <li class="active"><a href="experience.html">CV</a></li>
+                <li><a href="publication.html">Publication</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+<!--<div id="myModalBox" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            &lt;!&ndash; Заголовок модального окна &ndash;&gt;
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3>Contact me</h3>
+
+            </div>
+            &lt;!&ndash; Основной текст сообщения &ndash;&gt;
+            <div class="modal-body">
+
+                <form action="" class="form-horisontal">
+
+                    <div class="control-group">
+                        <label for="contact-name" class="control-label">Name:</label>
+                        <div class="control">
+                            <input type="text" id="contact-name" placeholder="John Doe"/>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="contact-phone" class="control-label">Phone number:</label>
+                        <div class="control">
+                            <input type="text" id="contact-phone" placeholder="0221123456"/>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="contact-email" class="control-label">E-mail:</label>
+                        <div class="control">
+                            <input type="text" id="contact-email" placeholder="john@mail.com"/>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="contact-message" class="control-label">Name:</label>
+                        <div class="control">
+                            <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="submit" class="btn btn-primary" value="Send Message">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            &lt;!&ndash; Нижняя часть модального окна &ndash;&gt;
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+
+            </div>
+        </div>
+    </div>
+</div>-->
+
+
+<div class="container">
+
+    <section>
+        <h1># CV </h1>
+
+
+
+
+
+
+
+        <div id="navbar-cv" class="tabbable"> <!-- Only required for left/right tabs -->
+
+            <ul class="nav nav-tabs" role="tablist" >
+                <li class="active"><a href="#tab1">Experience</a></li>
+                <li><a href="#tab2">Academic Studies</a></li>
+                <li><a href="#tab3">Supplementary Education</a></li>
+            </ul>
+
+
+            <div id="cv" class="container" data-spy="scroll" data-target="#navbar-cv">
+
+                <div class="container active" id="tab1">
+
+
+                    <h2># Experience:</h2>
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered">
+
+
+                            <tr>
+                                <td class="datum"> 12/2014 – present</td>
+                                <td>
+                                    <span class="position">Business Development Manager</span> <br>
+                        <span class="company"> <a href="https://www.german-medical-access.com" target="_blank">Priority
+                            Health Germany GmbH</a>, Cologne </span>
+                                    <ul>
+                                        <li>B2B Sales and partner management</li>
+                                        <li>Online Marketing</li>
+                                        <li>Marketing and sales analysis</li>
+                                        <li>Product management: new booking platform</li>
+                                    </ul>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="datum">07/2013 – 09/2014</td>
+                                <td>Move to Germany, Accommodation and language courses <br> <a href="../pdf/integrationkurs.pdf"
+                                                                                                target="_blank" class="pdf">Testimonial
+                                    (pdf)</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="datum">01/2011 – 06/2013</td>
+                                <td><span class="position"> Project Manager, B2B</span> <br>
+                        <span class="company"> <a href="http://contactcenter.telecontact.ru/en" target="_blank">
+                            Telecontact</a>, Moscow </span>
+                                    <ul>
+                                        <li>Project management in the field of customer service (ISO 9001, COPC, PMI)</li>
+                                        <li>Business development, statistics and analytics reports</li>
+                                        <li>Specifications drawing for IT team</li>
+                                    </ul>
+                                    <a href="../pdf/tk.pdf" target="_blank" class="pdf">Testimonial
+                                        (pdf)</a>,
+                                    <a href="../pdf/rb.pdf" target="_blank" class="pdf">Reference (pdf)</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="datum">04/2010 – 01/2011</td>
+                                <td><span class="position">Business development manager,
+                        B2B </span> <br>
+                                    <span class="company"> <a href="http://www.falt-dinamika.ru/en" target="_blank">FALT-Dynamic</a>, Moscow </span>
+                                    <ul>
+                                        <li>Project management of software development  in the field of aeronautic simulation (incl. engineering and IT teams)
+                                        </li>
+                                        <li>Business development, business reports and analytics</li>
+                                        <li>Certification of the business according to ISO9001</li>
+                                    </ul>
+                                    <a href="../pdf/fd.pdf" target="_blank" class="pdf">Testimonial
+                                        (pdf)</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="datum">08/2006 – 04/2010</td>
+                                <td><span class="position"> Project Manager, B2B </span> <br>
+                                    <span class="company"> <a href="http://miptic.ru/" target="_blank">Innovation Center of Moscow Institute of Physics and Technology</a>, Moscow </span>
+                                    <ul>
+                                        <li>Business development and project management of seed-stage projects</li>
+                                        <li>Elaborating of business plans, presentations</li>
+                                        <li>Business process analysis and certification according ISO9001</li>
+                                    </ul>
+
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+
+                </div>
+
+                <div class="container" id="tab2">
+
+                    <h2># Academic Studies:</h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered">
+
+                            <tr>
+                                <td class="datum">09/2006 – 06/2008</td>
+                                <td><span class="position">Master of Science</span>
+                                    <br> Graduating Class A4, state H+ <br>
+                                    Applied Mathematics and Physicsk <br>
+                                    Specialization: Management and System Analysis <br>
+                                    Moscow Institute of Physics and Technology (State University)<br>
+                                    <a href="../pdf/master.pdf" target="_blank" class="pdf">Testimonial
+                                        (pdf)</a>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td class="datum"> 09/2002 – 06/2006</td>
+                                <td><span class="position">Bachelor of Science </span> <br> Graduating Class A4, state H+ <br>
+                                    Applied Mathematics and Physics <br>
+                                    Specialization: Physical Processes Modeling<br>
+                                    Moscow Institute of Physics and Technology (State University)
+                                </td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+
+
+                </div>
+
+                <div class="container" id="tab3">
+
+                    <h2># Supplementary Education:</h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered">
+
+                            <tr>
+                                <td class="datum">2014</td>
+                                <td>German course,<a href="../pdf/deutsch.pdf" target="_blank" class="pdf"> Testimonial
+                                    (pdf)</a></td>
+                            </tr>
+                            <tr>
+                                <td class="datum"> 2013</td>
+                                <td> Successful negotiation: techniques and methods
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="datum">2012</td>
+                                <td> Time Management</td>
+                            </tr>
+                            <tr>
+                                <td class="datum" rowspan="2">2009</td>
+                                <td> Spoken English course</td>
+                            </tr>
+                            <tr>
+                                <!-- <td class="datum"> 2009</td> -->
+                                <td> Project management (PMI)</td>
+                            </tr>
+                            <tr>
+                                <td class="datum">2008</td>
+                                <td> English course</td>
+                            </tr>
+                            <tr>
+                                <td class="datum" rowspan="2"> 2007</td>
+                                <td>Berkeley-Programm: „Entrepreneurship Theory to Practice“
+                                </td>
+                            </tr>
+                            <tr>
+                                <!-- <td class="datum">2007</td> -->
+                                <td> Technology Entrepreneurship Fast-Track-Programm
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="datum" rowspan="2">2006</td>
+                                <td> Entrepreneurial Management and Finance course
+                                </td>
+                            </tr>
+                            <tr>
+                                <!-- <td class="datum">2006</td> -->
+                                <td> Business English course</td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+    <footer class="footer footer">
+        <hr/>
+        <ul class="inline list-unstyled">
+            <li class="pull-left"><p>Olga Pigareva</p></li>
+            <li class="pull-right"><p><a href="impressum.html">Imressum</a></p></li>
+        </ul>
+
+    </footer>
+
+</div>
+
+
+<!-- JavaScript -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#myModalBox").modal('show');
+  });
+
+</script>
+
+</body>
+</html>

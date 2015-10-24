@@ -1,0 +1,42 @@
+
+body {
+  margin-top: 3em;
+margin-bottom: 72px;
+  padding-bottom: 3em;
+}
+
+
+#my-photo {
+/* float: right;*/
+ margin-top: 4em;
+ margin-left: 1em;
+ margin-bottom: 2em;
+}
+
+footer {
+height: 71px;
+position: fixed;
+    bottom: 0;
+    width: inherit;
+        background-color: #fff;
+}
+
+#cv {
+position: relative;
+}
+
+
+/***********************************************************************************************/
+/* Custom */
+/***********************************************************************************************/
+/*.custom-cols {
+  background-color: #ffe5e0;
+  display: block;
+  height: 200px;
+}
+[class*="span"] {
+  background-color: #AAE1EE;
+}
+.dark {
+  background-color: #2ab4d5;
+}*/
