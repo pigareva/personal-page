@@ -3,24 +3,84 @@ body {
   margin-top: 3em;
 margin-bottom: 72px;
   padding-bottom: 3em;
+      background-image: url("/images/background.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      color: rgb(187, 187, 186);
+      font-family: Consolas, monospace;
+      letter-spacing: 0.02em;
+      text-align: left;
+  height: 100%;
 }
 
 
+#container-main {
+    background-color: rgb(16, 21, 24);
+    border: ridge 5px #4e5156;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+ }
+
+.container-fluid {
+   padding-left: 0;
+    padding-right: 0;
+}
+
+.container-inner {
+position: inherit;
+}
+
+.green {
+    color: #00EE00;
+}
+
+#olga {
+    font-size: 200%;
+    font-style: inherit;
+}
+
+#header {
+width: 70%;
+float: left;
+}
+
+#sotial-icons {
+float: right;
+width: 20%;
+
+}
+
+nav {
+width: inherit;
+margin: auto;
+}
+
+
+footer {
+height: 100px;
+    bottom: 0;
+position: inherit;
+          background-color: rgb(16, 21, 24);
+     }
+
+footer div
+{
+margin-left: 1em;
+margin-right: 1em;
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
 #my-photo {
 /* float: right;*/
  margin-top: 4em;
  margin-left: 1em;
- margin-bottom: 2em;
+ margin-bottom: 1em;
 }
-
-footer {
-height: 71px;
-position: fixed;
-    bottom: 0;
-    width: inherit;
-        background-color: #fff;
-}
-
 #cv {
 position: relative;
 }
