@@ -2,16 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4fe255-b333-4986-b487-2b9635a935d5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/htdocs/partial/header-de.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/htdocs/lebenslauf.html" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\social-buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\impressum.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\partial\footer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\partial\head.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\partial\header.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\partial\menu-wrap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\test.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\erfarung.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\images\bullet\Bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\images\bullet\Slide1.PNG" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\images\bullet\bullet2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\images\bullet\bullet3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\images\bullet\pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\partial\menu-wrap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\style.css" afterPath="" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\bootstrap-responsive.css" afterPath="$PROJECT_DIR$/htdocs/css/bootstrap-responsive.css" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/htdocs/css/bootstrap-responsive.min.css" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/htdocs/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/htdocs/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/htdocs/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\bootstrap.css" afterPath="$PROJECT_DIR$/htdocs/css/bootstrap.css" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/htdocs/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/htdocs/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\custom.css" afterPath="$PROJECT_DIR$/htdocs/css/custom.css" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css\custom.less" afterPath="$PROJECT_DIR$/htdocs/css/custom.less" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/htdocs/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/htdocs/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/htdocs/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/htdocs/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/htdocs/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\img\glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/htdocs/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\img\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/htdocs/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\img\me.jpg" afterPath="$PROJECT_DIR$/htdocs/img/me.jpg" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\js\bootstrap.js" afterPath="$PROJECT_DIR$/htdocs/js/bootstrap.js" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/htdocs/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\js\npm.js" afterPath="$PROJECT_DIR$/htdocs/js/npm.js" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\custom-bg-blue.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/custom-bg-blue.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\custom-bg-pink.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/custom-bg-pink.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\custom-bg.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/custom-bg.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\custom-icon-comment.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/custom-icon-comment.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\custom-icon-photo.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/custom-icon-photo.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\custom-icon-retweet.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/custom-icon-retweet.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\email.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/email.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\facebook.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/facebook.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\heart.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/heart.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\linkedin.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/linkedin.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\pinterest.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/pinterest.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\podcast.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/podcast.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\rss.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/rss.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\share_this.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/share_this.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\star.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/star.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\twitter_bird.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/twitter_bird.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\vimeo.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/vimeo.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_facebook.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_facebook.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_heart.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_heart.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_linkedin.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_linkedin.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_pinterest.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_pinterest.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_podcast.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_podcast.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_rss.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_rss.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_share_this.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_share_this.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_star.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_star.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_twitter_bird.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_twitter_bird.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\white_vimeo.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/white_vimeo.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\icons\youtube.png" afterPath="$PROJECT_DIR$/htdocs/css/icons/youtube.png" />
+      <change type="MOVED" beforePath="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\social-buttons.css" afterPath="$PROJECT_DIR$/htdocs/css/social-buttons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/images/background.jpg" afterPath="$PROJECT_DIR$/htdocs/images/background.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/en/contact.html" afterPath="$PROJECT_DIR$/htdocs/en/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/en/css/custom.css" afterPath="$PROJECT_DIR$/htdocs/en/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/en/experience.html" afterPath="$PROJECT_DIR$/htdocs/en/experience.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/en/partial/footer.html" afterPath="$PROJECT_DIR$/htdocs/en/partial/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/en/partial/header.html" afterPath="$PROJECT_DIR$/htdocs/en/partial/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/en/impressum.html" afterPath="$PROJECT_DIR$/htdocs/en/impressum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/partial/footer.html" afterPath="$PROJECT_DIR$/htdocs/partial/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/partial/head.html" afterPath="$PROJECT_DIR$/htdocs/partial/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/partial/header.html" afterPath="$PROJECT_DIR$/htdocs/partial/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/impressum.html" afterPath="$PROJECT_DIR$/htdocs/impressum.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/index.html" afterPath="$PROJECT_DIR$/htdocs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/en/index.html" afterPath="$PROJECT_DIR$/htdocs/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/kontakt.html" afterPath="$PROJECT_DIR$/htdocs/kontakt.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/en/publication.html" afterPath="$PROJECT_DIR$/htdocs/en/publication.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/style.css" afterPath="$PROJECT_DIR$/htdocs/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htdocs/publikation.html" afterPath="$PROJECT_DIR$/htdocs/publikation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pigareva.dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,48 +105,40 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htdocs/en/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.983051">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="58" />
+            <state vertical-scroll-proportion="-10.333333">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/en/css/bootstrap.css">
+        <entry file="file://$PROJECT_DIR$/htdocs/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.3103447">
-              <caret line="4335" column="0" selection-start-line="4335" selection-start-column="0" selection-end-line="4340" selection-end-column="1" />
+            <state vertical-scroll-proportion="-6.135135">
+              <caret line="3670" column="11" selection-start-line="3670" selection-start-column="1" selection-end-line="3670" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publication.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/en/publication.html">
+      <file leaf-file-name="lebenslauf.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/lebenslauf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1355934">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="-18.9">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding>
+                <element signature="n#a#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/en/partial/header.html">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/partial/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.4">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1724138">
-              <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="377" selection-end-column="1" />
+            <state vertical-scroll-proportion="-13.3">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,30 +147,8 @@
       <file leaf-file-name="experience.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htdocs/en/experience.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.322035">
-              <caret line="121" column="55" selection-start-line="121" selection-start-column="55" selection-end-line="121" selection-end-column="55" />
-              <folding>
-                <element signature="e#2182#4234#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="impressum.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/en/impressum.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7118645">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/htdocs/en/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76197386">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state vertical-scroll-proportion="-11.033334">
+              <caret line="398" column="14" selection-start-line="398" selection-start-column="14" selection-end-line="398" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -117,22 +157,53 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htdocs/en/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.333333">
-              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+            <state vertical-scroll-proportion="-15.4">
+              <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
               <folding>
-                <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kontakt.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/htdocs/kontakt.html">
+      <file leaf-file-name="publication.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/en/publication.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.5">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="66" />
+            <state vertical-scroll-proportion="-11.733334">
+              <caret line="193" column="14" selection-start-line="193" selection-start-column="14" selection-end-line="193" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/partial/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.5">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/htdocs/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.030478954">
+              <caret line="169" column="18" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.6">
+              <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="79" />
+              <folding>
+                <element signature="n#a#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,13 +238,7 @@
         <option value="$PROJECT_DIR$/htdocs/partial/menu-wrap.html" />
         <option value="$PROJECT_DIR$/htdocs/en/partial/menu-wrap.html" />
         <option value="$PROJECT_DIR$/htdocs/erfarung.html" />
-        <option value="$PROJECT_DIR$/htdocs/impressum.html" />
-        <option value="$PROJECT_DIR$/htdocs/kontakt.html" />
-        <option value="$PROJECT_DIR$/htdocs/publikation.html" />
         <option value="$PROJECT_DIR$/htdocs/en/kontakt.html" />
-        <option value="$PROJECT_DIR$/htdocs/partial/head.html" />
-        <option value="$PROJECT_DIR$/htdocs/partial/footer.html" />
-        <option value="$PROJECT_DIR$/htdocs/partial/header.html" />
         <option value="$PROJECT_DIR$/bootstrap/exercise/Source Files/Lessons/lesson22.html" />
         <option value="$PROJECT_DIR$/bootstrap/css/custom.css" />
         <option value="$PROJECT_DIR$/bootstrap/puplication.html" />
@@ -189,15 +254,26 @@
         <option value="$PROJECT_DIR$/htdocs/en/partial/test.html" />
         <option value="$PROJECT_DIR$/htdocs/en/test.html" />
         <option value="$PROJECT_DIR$/htdocs/en/partial/footer.html" />
-        <option value="$PROJECT_DIR$/htdocs/index.html" />
-        <option value="$PROJECT_DIR$/htdocs/en/impressum.html" />
-        <option value="$PROJECT_DIR$/htdocs/en/experience.html" />
-        <option value="$PROJECT_DIR$/htdocs/en/index.html" />
         <option value="$PROJECT_DIR$/htdocs/style.css" />
-        <option value="$PROJECT_DIR$/htdocs/en/contact.html" />
-        <option value="$PROJECT_DIR$/htdocs/en/publication.html" />
         <option value="$PROJECT_DIR$/htdocs/en/partial/header.html" />
+        <option value="$PROJECT_DIR$/htdocs/en/impressum.html" />
         <option value="$PROJECT_DIR$/htdocs/en/css/custom.css" />
+        <option value="$PROJECT_DIR$/htdocs/partial/menu-wrap-de.html" />
+        <option value="$PROJECT_DIR$/htdocs/partial/footer.html" />
+        <option value="$PROJECT_DIR$/htdocs/partial-old/head.html" />
+        <option value="$PROJECT_DIR$/htdocs/partial/head.html" />
+        <option value="$PROJECT_DIR$/htdocs/partial/header-de.html" />
+        <option value="$PROJECT_DIR$/htdocs/partial/header.html" />
+        <option value="$PROJECT_DIR$/htdocs/impressum.html" />
+        <option value="$PROJECT_DIR$/htdocs/index.html" />
+        <option value="$PROJECT_DIR$/htdocs/kontakt.html" />
+        <option value="$PROJECT_DIR$/htdocs/lebenslauf.html" />
+        <option value="$PROJECT_DIR$/htdocs/publikation.html" />
+        <option value="$PROJECT_DIR$/htdocs/en/publication.html" />
+        <option value="$PROJECT_DIR$/htdocs/en/experience.html" />
+        <option value="$PROJECT_DIR$/htdocs/en/contact.html" />
+        <option value="$PROJECT_DIR$/htdocs/en/index.html" />
+        <option value="$PROJECT_DIR$/htdocs/css/custom.css" />
       </list>
     </option>
   </component>
@@ -299,7 +375,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partial" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,32 +408,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pigareva.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pigareva.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -396,13 +446,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\css" />
+      <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\partial" />
+      <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs" />
+      <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\partial" />
       <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\old" />
+      <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs" />
       <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs\en" />
       <recent name="C:\openserver\OpenServer\domains\pigareva.dev\bootstrap\css" />
       <recent name="C:\openserver\OpenServer\domains\pigareva.dev\bootstrap" />
-      <recent name="C:\openserver\OpenServer\domains\pigareva.dev\htdocs" />
     </key>
   </component>
   <component name="RunManager">
@@ -576,7 +631,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="854" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -587,8 +642,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.250625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -600,7 +656,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -628,52 +683,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/partial/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/partial/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/partial/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/htdocs/en/experience.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="e#2182#4234#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -681,7 +699,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/bootstrap-responsive.css">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/bootstrap-responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
@@ -689,177 +707,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/partial/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/publikation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/kontakt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/erfarung.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/partial/menu-wrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/kontakt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/publikation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="28" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/erfarung.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/partial/menu-wrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/kontakt.html">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/publikation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="28" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/impressum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.5">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="118" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/bootstrap-theme.min.css">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/social-buttons.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/partial/menu-wrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/social-buttons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/social-buttons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/partial/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="69.375">
           <caret line="4" column="21537" selection-start-line="4" selection-start-column="21528" selection-end-line="4" selection-end-column="21537" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/bootstrap-responsive.css">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/bootstrap-responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
@@ -867,55 +736,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/partial/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/htdocs/images/background.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/partial/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.6">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/publikation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/erfarung.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/partial/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/partial/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="8" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/custom.less">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/custom.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -923,103 +749,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
+    <entry file="file://$PROJECT_DIR$/htdocs/partial/header-de.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.5">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="58" />
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/partial/menu-wrap.html">
+    <entry file="file://$PROJECT_DIR$/htdocs/partial/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="49" />
+        <state vertical-scroll-proportion="-6.3">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/impressum.html">
+    <entry file="file://$PROJECT_DIR$/htdocs/impressum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7118645">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-12.533334">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htdocs/kontakt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.5">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="66" />
+        <state vertical-scroll-proportion="-20.233334">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="n#a#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/publikation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.166667">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="n#a#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/lebenslauf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.9">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="n#a#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/partial/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/partial/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.3">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/en/publication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.733334">
+          <caret line="193" column="14" selection-start-line="193" selection-start-column="14" selection-end-line="193" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htdocs/en/experience.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.322035">
-          <caret line="121" column="55" selection-start-line="121" selection-start-column="55" selection-end-line="121" selection-end-column="55" />
-          <folding>
-            <element signature="e#2182#4234#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/publication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1355934">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1724138">
-          <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="377" selection-end-column="1" />
+        <state vertical-scroll-proportion="-11.033334">
+          <caret line="398" column="14" selection-start-line="398" selection-start-column="14" selection-end-line="398" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htdocs/en/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.333333">
-          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+        <state vertical-scroll-proportion="-15.4">
+          <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
           <folding>
-            <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6">
+          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="79" />
+          <folding>
+            <element signature="n#a#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.135135">
+          <caret line="3670" column="11" selection-start-line="3670" selection-start-column="1" selection-end-line="3670" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htdocs/en/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.983051">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="58" />
+        <state vertical-scroll-proportion="-10.333333">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.3103447">
-          <caret line="4335" column="0" selection-start-line="4335" selection-start-column="0" selection-end-line="4340" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/partial/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.4">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/en/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76197386">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.030478954">
+          <caret line="169" column="18" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
           <folding />
         </state>
       </provider>

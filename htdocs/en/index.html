@@ -2,43 +2,48 @@
 <html lang="en">
 
 
-<!--# include file="partial/head.html" -->
+<!--# include file="/partial/head.html" -->
 <body>
 
 
 
 <div class="container" id="container-main">
 
-    <!--# include file="partial/header.html" -->
+    <!--# include file="/partial/header.html" -->
 
 <div class="container-fluid">
     <nav class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
 
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">About</a></li>
-                    <li><a href="experience.html">CV</a></li>
-                    <li><a href="publication.html">Publication</a></li>
-                    <li><a href="contact.html" >Contact</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Olga Pigareva</a>
+
         </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html"><span class="underlined">A</span>bout</a></li>
+                <li ><a href="experience.html"><span class="underlined">C</span>V</a></li>
+                <li><a href="publication.html"><span class="underlined">P</span>ublication</a></li>
+                <li ><a href="contact.html"><span class="underlined">C</span>ontact</a></li>
+            </ul>
+            <a id="language" class="pull-right" href="/index.html"><img class="img-rounded"
+                                                               src="/images/de.png"></a>
+        </div>
+
+
     </nav>
 </div>
     <section>
-        <img src="img/me.jpg" class="pull-right" id="my-photo">
+
 
         <h1># Hello,</h1>
-
+        <img src="/img/me.jpg" class=" image-responsive" id="my-photo">
         <p>
             My name is Olga and I live in Cologne. I’m experienced project manager with a strong technical background
             and basic skills in frontend development. I'm fond of raccoons and shopping.
@@ -82,7 +87,7 @@
     <br>
 
 
-    <!--# include file="partial/footer.html" -->
+    <!--# include file="/partial/footer.html" -->
 </div>
 
 
@@ -92,7 +97,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function(){
