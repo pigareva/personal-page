@@ -1,0 +1,12 @@
+{
+    "name": "kroshka/website",
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Olga Pigareva",
+            "email": "olga.pigareva@gmail.com"
+        }
+    ]
+}
