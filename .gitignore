@@ -1,0 +1,9 @@
+# Windows
+Thumbs.db
+
+# OSX
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+.idea
