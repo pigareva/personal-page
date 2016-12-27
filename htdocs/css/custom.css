@@ -1,41 +1,45 @@
 
 body {
-  margin-top: 3em;
-margin-bottom: 3em;
-  padding-bottom: 3em;
-      background-image: url("/images/background.jpg");
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      background-attachment: fixed;
-      color: rgb(187, 187, 186);
-      font-family: Consolas, manaco, monospace;
-      letter-spacing: 0.02em;
-      text-align: left;
-  height: 100%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    background-image: url("/images/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(187, 187, 186);
+    font-family: Consolas, manaco, monospace;
+    letter-spacing: 0.02em;
+    text-align: left;
+    height: 100%;
 }
 
 .navbar-brand {
-display: none;
+    display: none;
 }
 
 @media (max-width: 768px) {
-  body {
-    margin: 0;
-  }
-  #container-header {
-    display: none;
-  }
-  .navbar-brand {
-  display: inherit;
-  }
-  background-image: url("/images/backgroundsmall.jpg");
-  #language {
-  display: none;
-  float: left;
-  text-align: left;
-  }
+    body {
+        margin: 0;
+    }
+
+    #container-header {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: inherit;
+    }
+
+    background-image: url("/images/backgroundsmall.jpg")
+
+    #language {
+        display: none;
+        float: left;
+        text-align: left;
+    }
 }
 
 #container-main {
@@ -43,62 +47,65 @@ display: none;
     border: ridge 5px #4e5156;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
- }
+}
 
 .container-fluid {
-   padding-left: 0;
+    padding-left: 0;
     padding-right: 0;
 }
 
 .container-inner {
-position: inherit;
+    position: inherit;
 }
 
 .green {
     color: #00EE00;
 }
+
 .orange {
     color: #CD661D;
 }
 
-h1{
+h1 {
     color: #CD661D;
     font-size: 26px;
     white-space: nowrap;
 }
+
 .underlined {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
-  .container {
-     max-width: 800px;
-   }
- }
+    .container {
+        max-width: 800px;
+    }
+}
 
- hr {
- width: 100%;
- margin-left: 0;
- margin-right 0;
-     border: 0;
-     height: 0;
-     border-top: 2px solid #151515;
-     border-bottom: 2px solid #000000;
+hr {
+    width: 100%;
+    margin-left: 0;
+    margin-rightl: 0;
+    border: 0;
+    height: 0;
+    border-top: 2px solid #151515;
+    border-bottom: 2px solid #000000;
 
- }
+}
 
-   @media only screen and (min-width : 480px) {
-         #my-photo {
-         float: right;
-                  }
-     }
+@media only screen and (min-width: 480px) {
+    #my-photo {
+        float: right;
+    }
+}
 
-     @media only screen and (max-width : 480px) {
-              #my-photo {
-                  display: block;
-                  margin: auto;
-                       }
-          }
+@media only screen and (max-width: 480px) {
+    #my-photo {
+        display: block;
+        margin: auto;
+    }
+}
+
 /* ---------------------------------------header start*/
 #olga {
     font-size: 200%;
@@ -108,45 +115,44 @@ text-decoration: underline;
 
 #olga-a {
     text-decoration: none;
-        cursor: pointer;
-            color: #9d9d9d;
+    cursor: pointer;
+    color: #9d9d9d;
 }
 
 #olga-a:hover, #olga-a:hover {
- color: #fff;
+    color: #fff;
     background-color: transparent;
 }
 
 #header {
-width: 70%;
-float: left;
+    width: 70%;
+    float: left;
 }
 
 #sotial-icons {
-float: right;
-width: 20%;
-margin-top: 15px;
+    float: right;
+    width: 20%;
+    margin-top: 15px;
 }
 
 nav {
-width: inherit;
+    width: inherit;
 }
 
 #container-header {
- margin-bottom: 15px;
- }
-
-#language {
-width: 10%;
-margin: auto;
-text-align: right;
-margin-top: 9px;
-margin-bottom: 9px;
+    margin-bottom: 15px;
 }
 
+#language {
+    width: 10%;
+    margin: 9px auto 9px auto;
+    text-align: right;
+    /*margin-top: 9px;*/
+    /*margin-bottom: 9px;*/
+}
 
 .navbar-inverse {
-background: linear-gradient(to top, #787d88 0%, #4e5156 36%, #15191e 100%);
+    background: linear-gradient(to top, #787d88 0%, #4e5156 36%, #15191e 100%);
     box-shadow: inset 1px 0 3px 1px rgba(23, 23, 23, 0.58);
     border: 1px solid #000000;
     -moz-border-radius: 3px;
@@ -158,77 +164,68 @@ background: linear-gradient(to top, #787d88 0%, #4e5156 36%, #15191e 100%);
 /*-------------------------------------footer start*/
 
 footer {
-/*height: 50px;*/
+    /*height: 50px;*/
     bottom: 0;
-position: inherit;
-          background-color: rgb(16, 21, 24);
-     }
+    position: inherit;
+    background-color: rgb(16, 21, 24);
+}
 
-footer div
-{
-margin-left: 1em;
-margin-right: 1em;
+footer div {
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 /*-------------------------------------footer end*/
 
-
 /*-------------------------------------About start*/
 
-
 #my-photo {
-/* float: right;*/
+    /* float: right;*/
 
- margin-left: 1em;
- margin-bottom: 1em;
-     border: 5px solid rgb(25, 32, 35);
+    margin-left: 1em;
+    margin-bottom: 1em;
+    border: 5px solid rgb(25, 32, 35);
 
-     box-shadow: 0px 2px 3px #555;
-     -webkit-box-shadow: 0px 2px 3px #555;
-     -moz-box-shadow: 0px 2px 3px #555;
+    box-shadow: 0px 2px 3px #555;
+    -webkit-box-shadow: 0px 2px 3px #555;
+    -moz-box-shadow: 0px 2px 3px #555;
 }
 
-  @media only screen and (min-width : 480px) {
-         #my-photo {
-         float: right;
-                  }
-     }
+@media only screen and (min-width: 480px) {
+    #my-photo {
+        float: right;
+    }
+}
 
-     @media only screen and (max-width : 480px) {
-              #my-photo {
-                  display: block;
-                  margin: auto;
-                  margin-bottom: 1em;
-                       }
-          }
+@media only screen and (max-width: 480px) {
+    #my-photo {
+        display: block;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+}
 
 /*-------------------------------------About end*/
 
 /*-------------------------------------CV start*/
 
-
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
 
     border-top: none;
 }
-
 
 table {
 
     text-align: left;
     border-collapse: separate;
- background: rgb(16, 21, 24);
+    background: rgb(16, 21, 24);
     margin-bottom: 1em;
 
 }
 
-
-
 tr:hover {
-background-color:#15191e;
+    background-color: #15191e;
 }
-
-
 
 td {
 
@@ -242,45 +239,45 @@ td {
     padding: 2%;
 }
 
-
 .panel-group {
-background-color: transparent;
-display: none;
+    background-color: transparent;
+    display: none;
 }
 
-
 @media (max-width: 768px) {
- .panel-group {
-  display: inherit;
-  }
-  .image-lg {
-  display: none
-  }
-  }
+    .panel-group {
+        display: inherit;
+    }
+
+    .image-lg {
+        display: none
+    }
+}
+
 .panel {
 
- background-color: transparent;
+    background-color: transparent;
     border-color: transparent;
+}
 
-
-
-.panel-default>.panel-heading {
+.panel-default > .panel-heading {
     color: transparent;
     background-color: transparent;
     border-color: transparent;
-    }
-
-    .panel-default>.panel-heading+.panel-collapse>.panel-body {
-        border-top-color: transparent;
-            }
-
-            .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
-                border-top: 1px solid transparent;
-            }
 }
 
-.panel-default>.panel-heading {
-color: rgb(187, 187, 186);
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: transparent;
+}
+
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 1px solid transparent;
+}
+
+
+
+.panel-default > .panel-heading {
+    color: rgb(187, 187, 186);
     background-color: transparent;
     border-color: transparent;
 }
@@ -290,8 +287,8 @@ color: rgb(187, 187, 186);
 
 }
 
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
-     border-top: none;
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: none;
 }
 
 .panel-body {
@@ -302,15 +299,12 @@ color: rgb(187, 187, 186);
     font-size: inherit;
 }
 
-
-
 /*-------------------------------------CV end*/
 
-
-
 .form-control {
-color: rgba(0, 181, 238, 0.63);
+    color: rgba(0, 181, 238, 0.63);
 }
+
 #name, #email, #phone, #message {
 
     background: rgb(16, 21, 24);
@@ -322,6 +316,7 @@ color: rgba(0, 181, 238, 0.63);
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
 #name:focus, #email:focus, #phone:focus, #message:focus {
 
     background: rgb(22, 31, 35);
@@ -333,64 +328,60 @@ color: rgba(0, 181, 238, 0.63);
     border-radius: 5px;
 }
 
-
 button {
     display: inline-block;
     color: rgb(187, 187, 186);
- /*   height: 36px;
-    width: 312px;*/
-    text-shadow: 0 -1px rgb(46,53,58);
+    /*   height: 36px;
+       width: 312px;*/
+    text-shadow: 0 -1px rgb(46, 53, 58);
     text-decoration: none;
     user-select: none;
     line-height: 2em;
-    padding-left:  1.2em;
+    padding-left: 1.2em;
     padding-right: 1.2em;
     outline: none;
-    border: 1px solid rgba(33,43,52,1);
+    border: 1px solid rgba(33, 43, 52, 1);
     border-radius: 3px;
-    background: rgb(25, 28, 35) linear-gradient(rgb(58, 70, 80), rgb(69,78,87));
-    box-shadow:
-    inset 0 1px rgba(101,114,126,1),
-    inset 0 0 1px rgba(140,150,170,.8),
-    0 1px rgb(83,94,104),
-    0 0 1px rgb(86,96,106);
+    background: rgb(25, 28, 35) linear-gradient(rgb(58, 70, 80), rgb(69, 78, 87));
+    box-shadow: inset 0 1px rgba(101, 114, 126, 1),
+    inset 0 0 1px rgba(140, 150, 170, .8),
+    0 1px rgb(83, 94, 104),
+    0 0 1px rgb(86, 96, 106);
     cursor: pointer;
 }
+
 button:active {
-    box-shadow:
-    inset 0 1px 3px rgba(0,10,20,.5),
-    0 1px rgb(83,94,104),
-    0 0 1px rgb(86,96,106);
-  -webkit-translate(1px,2px);
-    -moz-translate(1px,2px);
-    -o-translate(1px,2px);
-    -ms-translate(1px,2px);
-    translate(10px,20px);
+    box-shadow: inset 0 1px 3px rgba(0, 10, 20, .5),
+    0 1px rgb(83, 94, 104),
+    0 0 1px rgb(86, 96, 106);
+-webkit-translate(1 px, 2 px);
+-moz-translate(1 px, 2 px);
+-o-translate(1 px, 2 px);
+-ms-translate(1 px, 2 px);
+translate(10 px, 20 px);
 
 }
-button:focus:not(:active), .button:hover{
-    border: 1px solid rgb(22,32,43);
-    border-bottom: 1px solid rgb(25,34,45);
-    background: rgb(53,61,71);
-    box-shadow:
-    inset 0 1px 3px rgba(0,10,20,.5),
-    0 1px rgb(83,94,104),
-    0 0 1px rgb(86,96,106);
-    color: #00EE00 ;
+
+button:focus:not(:active), .button:hover {
+    border: 1px solid rgb(22, 32, 43);
+    border-bottom: 1px solid rgb(25, 34, 45);
+    background: rgb(53, 61, 71);
+    box-shadow: inset 0 1px 3px rgba(0, 10, 20, .5),
+    0 1px rgb(83, 94, 104),
+    0 0 1px rgb(86, 96, 106);
+    color: #00EE00;
     /*pointer-events: none;*/
 }
 
 .well {
- background: rgb(16, 21, 24);
+    background: rgb(16, 21, 24);
     border: 1px solid #000;
-     border-right: 1px solid #353535;
-     border-bottom: 1px solid #353535;
-     -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-     border-radius: 5px;
+    border-right: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
-
-
 
 /***********************************************************************************************/
 /* Custom */
