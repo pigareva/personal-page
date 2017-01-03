@@ -3,12 +3,12 @@ body {
     margin-top: 3em;
     margin-bottom: 3em;
     padding-bottom: 3em;
-    background-image: url("/images/background.jpg");
+    background: url("../images/background.jpg") fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+
     color: rgb(187, 187, 186);
     font-family: Consolas, manaco, monospace;
     letter-spacing: 0.02em;
@@ -23,6 +23,7 @@ body {
 @media (max-width: 768px) {
     body {
         margin: 0;
+        background-image: url("/images/backgroundsmall.jpg");
     }
 
     #container-header {
@@ -33,7 +34,7 @@ body {
         display: inherit;
     }
 
-    background-image: url("/images/backgroundsmall.jpg")
+
 
     #language {
         display: none;
@@ -71,10 +72,14 @@ h1 {
     font-size: 26px;
     white-space: nowrap;
 }
+a:focus, a:hover {
 
-.underlined {
-    text-decoration: underline;
+    text-decoration: none;
 }
+
+/*.underlined {*/
+    /*text-decoration: underline;*/
+/*}*/
 
 @media (min-width: 768px) {
     .container {
@@ -85,7 +90,7 @@ h1 {
 hr {
     width: 100%;
     margin-left: 0;
-    margin-rightl: 0;
+    margin-right: 0;
     border: 0;
     height: 0;
     border-top: 2px solid #151515;
@@ -107,30 +112,31 @@ hr {
 }
 
 /* ---------------------------------------header start*/
+/*#olga {*/
+    /*font-size: 200%;*/
+    /*font-style: inherit;*/
+
+/*}*/
+
 #olga {
     font-size: 200%;
-    font-style: inherit;
-
-}
-
-#olga-a {
     text-decoration: none;
     cursor: pointer;
-    color: #9d9d9d;
+    color: #bbbbba;
 }
 
-#olga-a:hover, #olga-a:hover {
+#olga:hover {
     color: #fff;
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 #header {
     width: 70%;
-    float: left;
+    /*float: left;*/
 }
 
 #sotial-icons {
-    float: right;
+    /*float: right;*/
     width: 20%;
     margin-top: 15px;
 }
@@ -147,8 +153,7 @@ nav {
     width: 10%;
     margin: 9px auto 9px auto;
     text-align: right;
-    /*margin-top: 9px;*/
-    /*margin-bottom: 9px;*/
+
 }
 
 .navbar-inverse {
@@ -209,8 +214,9 @@ footer div {
 
 /*-------------------------------------CV start*/
 
-.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
-
+/*.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td,
+.table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {*/
+.table td, .table th{
     border-top: none;
 }
 
@@ -260,44 +266,49 @@ td {
     border-color: transparent;
 }
 
-.panel-default > .panel-heading {
-    color: transparent;
-    background-color: transparent;
-    border-color: transparent;
-}
+/*.panel-default > .panel-heading {*/
+    /*color: transparent;*/
+    /*background-color: transparent;*/
+    /*border-color: transparent;*/
+/*}*/
 
-.panel-default > .panel-heading + .panel-collapse > .panel-body {
+/*.panel-default > .panel-heading + .panel-collapse > .panel-body {*/
+    /*border-top-color: transparent;*/
+/*}*/
+
+ .panel-body {
     border-top-color: transparent;
 }
 
-.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
-    border-top: 1px solid transparent;
-}
+/*.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {*/
+    /*border-top: 1px solid transparent;*/
+/*}*/
 
-
+ /*.panel-group .panel-heading + .panel-collapse > .panel-body {*/
+    /*border-top: 1px solid transparent;*/
+/*}*/
 
 .panel-default > .panel-heading {
     color: rgb(187, 187, 186);
     background-color: transparent;
     border-color: transparent;
-}
-
-.panel-heading {
     padding: 0;
-
 }
 
-.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+/*.panel-heading {*/
+    /*padding: 0;*/
+
+/*}*/
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
     border-top: none;
-}
-
-.panel-body {
-    padding: 0;
 }
 
 .panel-title {
     font-size: inherit;
 }
+
+
 
 /*-------------------------------------CV end*/
 
@@ -320,12 +331,7 @@ td {
 #name:focus, #email:focus, #phone:focus, #message:focus {
 
     background: rgb(22, 31, 35);
-    border: 1px solid #000;
-    border-right: 1px solid #353535;
-    border-bottom: 1px solid #353535;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+
 }
 
 button {
@@ -333,7 +339,8 @@ button {
     color: rgb(187, 187, 186);
     /*   height: 36px;
        width: 312px;*/
-    text-shadow: 0 -1px rgb(46, 53, 58);
+    /*text-shadow: 0 -1px rgb(46, 53, 58);*/
+
     text-decoration: none;
     user-select: none;
     line-height: 2em;
