@@ -67,7 +67,7 @@ body {
     color: #CD661D;
 }
 
-h1 {
+h1, h2 {
     color: #CD661D;
     font-size: 26px;
     white-space: nowrap;
@@ -295,6 +295,16 @@ td {
     padding: 0;
 }
 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: 1px solid #555;
+}
+
+
+
+
+
+
+}
 /*.panel-heading {*/
     /*padding: 0;*/
 
