@@ -10,30 +10,60 @@
         var a =  $("a[href='']");
         var url = window.location.href;
 
-        new function () {
-            if( url.indexOf('index') ){
+        a.attr('href', function() {
+            if (lang == 'de') {
 
-                console.log('1', window.location.href);
+                if (url.indexOf('index') > 0) {
+                    $('.nav li').removeClass('active');
+                    $('.nav li:first-child').addClass('active');
 
+                    return '/en/index.html';
 
-                return '/en/index.html'
-            }else {
-                console.log('2', window.location.href);
+                } else if (url.indexOf('leben') > 0) {
+                    $('.nav li').removeClass('active');
+                    $('.nav li:nth-child(2)').addClass('active');
+                    return '/en/experience.html';
 
-                return '/en/experience.html'
+                } else if (url.indexOf('publik') > 0) {
+                    $('.nav li').removeClass('active');
+                    $('.nav li:nth-child(3)').addClass('active');
+                    return '/en/publication.html'
+                } else if (url.indexOf('kontakt') > 0) {
+                    $('.nav li').removeClass('active');
+                    $('.nav li:nth-child(4)').addClass('active');
+                    return '/en/contact.html'
+                } else {
+                    $('.nav li').removeClass('active');
+                    return '/en/index.html'
+                }
+            } else {
+                if (url.indexOf('index') > 0) {
+                    $('.nav li').removeClass('active');
+                    $('.nav li:first-child').addClass('active');
+
+                    return '/index.html';
+
+                } else if (url.indexOf('exper') > 0) {
+                    $('.nav li').removeClass('active');
+                    $('.nav li:nth-child(2)').addClass('active');
+                    return '/lebenslauf.html';
+
+                } else if (url.indexOf('public') > 0) {
+                    $('.nav li').removeClass('active');
+                    $('.nav li:nth-child(3)').addClass('active');
+                    return '/publikation.html'
+                } else if (url.indexOf('contact') > 0) {
+                    $('.nav li').removeClass('active');
+                    $('.nav li:nth-child(4)').addClass('active');
+                    return '/kontakt.html'
+                } else {
+                    $('.nav li').removeClass('active');
+                    return '/index.html'
+                }
             }
-        };
+        })
 
-//        if(lang == 'de'){
-//
-//            a.attr('href', function(){
-//
-//
-//                    }
-//            )
-//        }else{
-//
-//        }
+
     });
 
 </script>
