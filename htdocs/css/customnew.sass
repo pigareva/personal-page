@@ -49,13 +49,19 @@ body
   height: 100%
   @media (max-width: $break-md)
     margin: 0
-    background-image: url("/images/backgroundsmall.jpg") fixed no-repeat
+    background: url("/images/backgroundsmall.jpg") fixed no-repeat
 
 
 .navbar-brand
   display: none
   @media (max-width: $break-md)
     display: inherit
+
+#home .nav a.button-home,
+#cv .nav a.button-cv,
+#publ .nav a.button-publ,
+#contact .nav a.button-contact
+  color: #fff
 
 #container-main
   background-color: $primary-bg-color
