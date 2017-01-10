@@ -23,6 +23,7 @@ body {
 @media (max-width: 768px) {
     body {
         margin: 0;
+        background-image: url("/images/backgroundsmall.jpg");
     }
 
     #container-header {
@@ -33,7 +34,7 @@ body {
         display: inherit;
     }
 
-    background-image: url("/images/backgroundsmall.jpg")
+
 
     #language {
         display: none;
