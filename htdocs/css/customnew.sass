@@ -1,0 +1,287 @@
+// basic
+$primary-color: #bbbbba
+$primary-bg-color: #101518
+$break-xl: 1200px
+$break-lg: 992px
+$break-md: 768px
+$break-sm: 480px
+
+.green
+  color: #00EE00
+.orange
+  color: #CD661D
+
+
+a:focus,
+a:hover
+  text-decoration: none
+
+=prefix($property, $value)
+  -webkit-#{$property}: #{$value}
+  -khtml-#{$property}: #{$value}
+    -moz-#{$property}: #{$value}
+      -ms-#{$property}: #{$value}
+        -o-#{$property}: #{$value}
+          #{$property}: #{$value}
+
+
+=radius($radius)
+ +prefix('border-radius',$radius)
+
+=shadow($h, $v, $blur, $spread, $color, $inset)
+  @if ($inset != "")
+    +prefix('box-shadow', $inset $h $v $blur $color)
+  @else
+    +prefix('box-shadow', $h $v $blur $color)
+
+
+// basic end
+// main
+body
+  margin: 3em 0
+  padding-bottom: 3em
+  background: url("../images/background.jpg") fixed no-repeat
+  +prefix('backgroung-size', cover)
+  color: $primary-color
+  font-family: Consolas, Monaco, monospace
+  letter-spacing: 0.02em
+  text-align: left
+  height: 100%
+  @media (max-width: $break-md)
+    margin: 0
+    background-image: url("/images/backgroundsmall.jpg") fixed no-repeat
+
+
+.navbar-brand
+  display: none
+  @media (max-width: $break-md)
+    display: inherit
+
+#container-main
+  background-color: $primary-bg-color
+  border: ridge #4e5156
+  +radius(5px)
+
+.container-fluid
+  padding-left: 0
+  padding-right: 0
+
+.container-inner
+  position: inherit
+  font-size: 26px
+  white-space: nowrap
+
+@media (min-width: $break-md)
+  .container
+    max-width: 800px
+
+h1,
+h2
+  color: #CD661D
+  font-size: 26px
+  white-space: nowrap
+
+hr
+  width: 100%
+  margin: auto 0
+  height: 0
+  border: 0
+  border-top: 2px solid #151515
+  border-bottom: 2px solid #000000
+
+// main end
+
+// header start
+#olga
+  font-size: 200%
+  text-decoration: none
+  cursor: pointer
+  color: #bbbbba
+  &:hover
+    color: #fff
+#header
+  width: 70%
+  padding-bottom: 20px
+
+#sotial-icons
+  width: 20%
+  margin-top: 15px
+
+#language
+  width: 10%
+  margin: 9px auto 9px auto
+  text-align: right
+  @media (max-width: $break-md)
+    display: none
+    float: left
+    text-align: left
+
+.navbar-inverse
+  background: linear-gradient(to top, #787d88 0%, #4e5156 36%, #15191e 100%)
+  background: -webkit-linear-gradient(to top, #787d88 0%, #4e5156 36%, #15191e 100%)
+  background: -moz-linear-gradient(to top, #787d88 0%, #4e5156 36%, #15191e 100%)
+  background: -o-linear-gradient(to top, #787d88 0%, #4e5156 36%, #15191e 100%)
+  +shadow(1px, 1px, 3px, 1px, rgba(23, 23, 23, 0.58), inset)
+  border: 1px solid #000
+  +radius(3px)
+
+@media (max-width: $break-md)
+  #container-header
+    display: none
+
+
+//header end
+
+// footer start
+
+footer
+  bottom: 0
+  position: inherit
+  background-color: #101518
+
+footer div
+  margin: auto 1px
+
+//footer end
+
+//about start
+
+#my-photo
+  margin: auto auto 1em 1em
+  border: 5px solid #192023
+  +shadow(0, 2px, 3px, 0, #353535, '')
+  @media only screen and (min-width: $break-sm)
+    float: right
+  @media only screen and (max-width: $break-sm)
+    display: block
+    margin: auto
+    margin-bottom: 1em
+  @media (max-width: $break-sm)
+    display: none
+
+
+// about end
+//cv start
+.table td,
+.table th
+  border-top: none
+
+table
+  text-align: left
+  border-collapse: separate
+  background: $primary-bg-color
+  margin-bottom: 1em
+
+tr:hover
+  background-color: #15191e
+
+td
+  border: 1px solid #000
+  border-right: #353535
+  border-bottom: #353535
+  +radius(5px)
+  margin-bottom: 15px
+  padding: 2%
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th
+  border-top-color: #555
+
+.panel-group
+  background-color: transparent
+  display: none
+  @media (max-width: $break-md)
+    display: inherit
+
+
+
+.panel
+  background-color: transparent
+  border-color: transparent
+
+.panel-default .panel-heading
+  color: $primary-color
+  background-color: transparent
+  border-color: transparent
+  padding: 0
+
+.panel-body
+  border-top-color: transparent
+
+.panel-group .panel-heading + .panel-collapse > .panel-body
+  border-top: none
+
+.panel-title
+  font-size: inherit
+
+@media (max-width: $break-md)
+  .image-lg
+    display: none
+
+//cv end
+
+//contact start
+
+.form-control
+  color: #00B5EE
+
+#name,
+#email,
+#phone,
+#message
+  background: $primary-bg-color
+  border: 1px solid #000000
+  border-right-color: #353535
+  border-bottom-color: #353535
+  +radius(5px)
+  margin-bottom: 15px
+  &:focus
+    background: rgb(22, 31, 35)
+
+
+button
+  color: $primary-color
+  display: inline-block
+  text-decoration: none
+  user-select: none
+  line-height: 2em
+  padding-left: 1.2em
+  padding-right: 1.2em
+  outline: none
+  border: 1px solid rgba(33, 43, 52, 1)
+  +radius(3px)
+  background-color: #191C23
+  //+prefix('linear-gradient', rgb(58, 70, 80), rgb(69, 78, 87))
+  //+shadow( 0, 1px, rgba(101, 114, 126, 1), inset, 0 0 1px rgba(140, 150, 170, .8), 0 1px rgb(83, 94, 104),  0 0 1px rgb(86, 96, 106))
+
+
+  cursor: pointer
+  &:active
+    +shadow( 0, 1px, 3px, 0, #65727E, inset)
+  &:focus:not(:active),
+  .button:hover
+    border-color: #192023
+    border-bottom: #19222D
+    background-color: #353D47
+    color: #00EE00
+
+.well
+  background: $primary-bg-color
+  border: 1px solid #000000
+  border-right: #353535
+  border-bottom: #353535
+  +radius(5px)
+
+//contact end
+
+
+
+
+
+
+
+
