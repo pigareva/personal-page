@@ -8,6 +8,20 @@ a:focus,
 a:hover {
   text-decoration: none; }
 
+@media print {
+  .no-print {
+    display: none; } }
+
+.keyword {
+  background-color: #4e5156;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+    -khtml-border-radius--moz-border-radius: 3px;
+      -khtml-border-radius--moz-border-radius--ms-border-radius: 3px;
+        -khtml-border-radius--moz-border-radius--ms-border-radius--o-border-radius: 3px;
+          -khtml-border-radius--moz-border-radius--ms-border-radius--o-border-radius-border-radius: 3px;
+  padding: 3px 5px; }
+
 body {
   margin: 3em 0;
   padding-bottom: 3em;

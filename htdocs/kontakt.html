@@ -2,80 +2,61 @@
 <html lang="de">
 <!--# include file="/partial/head.html" -->
 <body id="contact">
-
 <div class="container" id="container-main">
 
     <!--# include file="/partial/header-de.html" -->
 
     <section>
-
-<h1># Kontakte</h1>
+        <h1># Kontakte</h1>
         <h4># Ich freue mich über Ihre Rückmeldung </h4>
-
-        <form role="form"  method="post" action="/contact.php">
-
+        <form role="form" method="post" action="/contact.php" id="form">
             <div class="container-fluid">
-            <div class="form-group col-lg-5">
-                <label for="name"><span class="green">Name:</span></label> <br>
-                <input name="name" type="text" id="name" placeholder="Name" class="form-control">
-            </div>
-</div>
-            <div class="container-fluid">
-            <div class="form-group col-lg-5">
-                <label for="email"><span class="green">E-mail:</span></label>
-                <input type="email" name="email" class="form-control" id="email" placeholder="mail@mail.de">
-            </div>
-            </div>
-            <div class="container-fluid">
-            <div class="form-group col-lg-5">
-                <label for="phone"><span class="green">Telefonnummer:</span></label>
-                <input type="tel" name="phone" class="form-control" id="phone" placeholder="0221234567">
-            </div>
-            </div>
-            <div class="container-fluid">
-            <div class="control-group col-lg-5">
-                <label for="message"><span class="green">Nachricht:</span></label> <br>
-                <textarea name="message" id="message"  rows="10" class="form-control"  placeholder="Nachricht"></textarea>
-            </div>
+                <div class="form-group col-lg-5">
+                    <label for="name"><span class="green">Name:</span></label> <br>
+                    <input name="name" type="text" id="name" placeholder="Name" class="form-control">
                 </div>
-<br>
+            </div>
+            <div class="container-fluid">
+                <div class="form-group col-lg-5">
+                    <label for="email"><span class="green">E-mail:</span></label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="mail@mail.de">
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="form-group col-lg-5">
+                    <label for="phone"><span class="green">Telefonnummer:</span></label>
+                    <input type="tel" name="phone" class="form-control" id="phone" placeholder="0221234567">
+                </div>
+            </div>
             <div class="container-fluid">
                 <div class="control-group col-lg-5">
-            <button type="submit" class="btn btn-block">Senden</button>
-                    </div>
+                    <label for="message"><span class="green">Nachricht:</span></label> <br>
+                    <textarea name="message" id="message" rows="10" class="form-control"
+                              placeholder="Nachricht"></textarea>
                 </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="control-group col-lg-5">
+                    <button type="submit" class="btn btn-block" id="send">Senden</button>
+                </div>
+            </div>
         </form>
-
-<br>
-
-        <p>
-            Sie könnten mich auch unter
-
+        <br>
+        <p>            Sie könnten mich auch unter
             <a href="https://www.facebook.com/pigareva.olga"> Facebook</a> oder <a
                 href="https://de.linkedin.com/in/olgapigareva">Linkedin</a> kontaktieren.
             <br><br>
         </p>
-            <h4>Weitere Kontaktmöglichkeiten</h4>
-
+        <h4>Weitere Kontaktmöglichkeiten</h4>
         <address class="well">
             <strong> Olga Pigareva</strong> <br>
-
             Balthasarstr. 54 <br>
             50670 Köln <br>
             Deutschland <br>
             Telefon:<a href="tel:004915255951435"> 152 / 55 95 1435</a><br>
             E-Mail:<a href="mailto:olga@pigareva.de"> olga@pigareva.de</a><br>
-
         </address>
-
-
-
-
-
-
-
-
-
     </section>
 
     <!--# include file="/partial/footer.html" -->
@@ -83,5 +64,72 @@
 </div>
 
 <!--# include file="/partial/scripts.html" -->
+
+<script>
+
+    $.notify.defaults( {
+        autoHideDelay: 5000000
+    } );
+
+    var errorNull = true, errorMail = true, errorPass = true;
+
+    var checkNull = function(){
+        $(this).val($(this).val().trim());
+        if ($(this).val() =="") {
+            $(this).notify("Es soll nicht lehr sein", "error");
+            $(this).addClass("errtextbox");
+            errorNull = true;
+        } else {
+            errorNull = false;
+            $(this).removeClass("errtextbox");
+        }
+    };
+
+    $("#name").focusout(checkNull);
+    $("#email").focusout(checkNull);
+
+    $("#name").keyup(function(){
+        var value = $(this).val();
+        if (value.length > 24){
+            $(this).notify("Максимум 25 символов", "info");
+            $(this).val(value.slice(0,24));
+        }
+    });
+
+    $("#mail").focusout(function(){
+        var value = $(this).val().trim();
+        if (value.search(/^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$/) != 0) {
+            $(this).notify("E-mail ist nicht korrekt", "error");
+            $(this).addClass("errtextbox");
+            errorMail = true;
+        } else {
+            $(this).removeClass("errtextbox");
+            errorMail = false;
+        }
+    });
+
+    $("#phone").focusout(function(){
+        var value = $(this).val().trim();
+        if (value.search(/^[-+0-9()\s]+$/) != 0) {
+            $(this).notify("Telefonnummer ist nicht korrekt", "error");
+            $(this).addClass("errtextbox");
+            errorMail = true;
+        } else {
+            $(this).removeClass("errtextbox");
+            errorMail = false;
+        }
+    });
+
+
+    $("#send").click(function(){
+        if (!(errorNull || errorMail || errorPass)) {
+            $("#form").submit();
+        } else {
+            $(this).notify("Форма пустая или заполнена не корректно", "error");
+        }
+    });
+
+
+</script>
 </body>
 </html>
