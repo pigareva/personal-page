@@ -2,99 +2,74 @@
 <html lang="en">
 <!--# include file="/partial/head.html" -->
 <body id="contact">
-
 <div class="container" id="container-main">
-
     <!--# include file="/partial/header.html" -->
-
-
-
     <section>
-
-<h1># Contacts</h1>
+        <h1># Contacts</h1>
         <h4>I'm looking forward to hear from you </h4>
-
-        <form role="form"  method="post" action="/contact.php">
-
+        <form role="form" method="post" action="/contact.php">
             <div class="container-fluid">
-            <div class="form-group col-lg-5">
-                <label for="name"><span class="green">Name</span></label> <br>
-                <input name="name" type="text" id="name" placeholder="Name" class="form-control">
-            </div>
-</div>
-            <div class="container-fluid">
-            <div class="form-group col-lg-5">
-                <label for="email"><span class="green">E-mail</span></label>
-                <input type="email" name="email" class="form-control" id="email" placeholder="mail@mail.de">
-            </div>
-            </div>
-            <div class="container-fluid">
-            <div class="form-group col-lg-5">
-                <label for="phone"><span class="green">Phone number</span></label>
-                <input type="tel" name="phone" class="form-control" id="phone" placeholder="0221234567">
-            </div>
-            </div>
-            <div class="container-fluid">
-            <div class="control-group col-lg-5">
-                <label for="message"><span class="green">Message:</span></label> <br>
-                <textarea name="message" id="message"  rows="10" class="form-control"  placeholder="your text"></textarea>
-            </div>
+                <div class="form-group col-lg-5">
+                    <label for="name"><span class="green">Name</span></label> <br>
+                    <input name="name" type="text" id="name" placeholder="Name" class="form-control">
                 </div>
-<br>
+            </div>
+            <div class="container-fluid">
+                <div class="form-group col-lg-5">
+                    <label for="email"><span class="green">E-mail</span></label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="mail@mail.de">
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="form-group col-lg-5">
+                    <label for="phone"><span class="green">Phone number</span></label>
+                    <input type="tel" name="phone" class="form-control" id="phone" placeholder="0221234567">
+                </div>
+            </div>
             <div class="container-fluid">
                 <div class="control-group col-lg-5">
-            <button type="submit" class="btn btn-block">Submit</button>
-                    </div>
+                    <label for="message"><span class="green">Message:</span></label> <br>
+                    <textarea name="message" id="message" rows="10" class="form-control"
+                              placeholder="your text"></textarea>
                 </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="control-group col-lg-5">
+                    <button type="submit" class="btn btn-block">Submit</button>
+                </div>
+            </div>
         </form>
-
-<br>
-
+        <br>
         <p>
             You can also find me on <a href="https://github.com/pigareva">Github</a> or <a
                 href="https://www.xing.com/profile/Olga_Pigareva">Xing</a>.
             <br><br>
         </p>
-            <h4>Other contacts</h4>
-
+        <h4>Other contacts</h4>
         <address class="well">
             <strong> Olga Pigareva</strong> <br>
-
             Balthasarstr. 54 <br>
             50670 Köln <br>
             Deutschland <br>
             Telefon:<a href="tel:004915255951435"> 152 / 55 95 1435</a><br>
             E-Mail:<a href="mailto:olga@pigareva.de"> olga@pigareva.de</a><br>
-
         </address>
-
-
-
-
-
-
-
-
-
     </section>
-
     <!--# include file="/partial/footer.html" -->
-
 </div>
-
 <!--# include file="/partial/scripts.html" -->
-
 <script>
 
-    $.notify.defaults( {
+    $.notify.defaults({
         autoHideDelay: 5000
-    } );
+    });
 
     var errorNull = true, errorMail = true, errorPhone = true;
 
-    var checkNull = function(){
+    var checkNull = function () {
         $(this).val($(this).val().trim());
-        if ($(this).val() =="") {
+        if ($(this).val() == "") {
             $(this).notify("Complete the field", "error");
             $(this).addClass("errtextbox");
             errorNull = true;
@@ -108,19 +83,19 @@
 
     $("#email").focusout(checkNull);
 
-    $("#name").keyup(function(){
+    $("#name").keyup(function () {
         var value = $(this).val();
-        if (value.length > 24){
+        if (value.length > 24) {
             $(this).notify("25 symbols maximum", "info");
-            $(this).val(value.slice(0,24));
+            $(this).val(value.slice(0, 24));
         }
-        if (value.length < 3){
+        if (value.length < 3) {
             $(this).notify("3 symbols minimum", "info");
 
         }
     });
 
-    $("#email").focusout(function(){
+    $("#email").focusout(function () {
 
         var value = $(this).val().trim();
         if (value.search(/^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$/) != 0) {
@@ -133,35 +108,35 @@
         }
     });
 
-    $("#phone").focusout(function(){
+    $("#phone").focusout(function () {
         var value = $(this).val().trim();
         if (value.search(/^[-+0-9()\s]+$/) != 0) {
             $(this).notify("Phone number isn't correct", "error");
             $(this).addClass("errtextbox");
             errorPhone = true;
         } else {
-            if (value.length < 6){
+            if (value.length < 6) {
                 $(this).notify("5 symbols minimum", "info");
-            }else {
+            } else {
                 $(this).removeClass("errtextbox");
                 errorPhone = false;
             }
         }
     });
 
-    $("#message").keyup(function(){
+    $("#message").keyup(function () {
         var value = $(this).val();
-        if (value.length < 11){
+        if (value.length < 11) {
             $(this).notify("Write a message", "info");
         }
     });
 
-    $("#send").click(function(event){
+    $("#send").click(function (event) {
         event.stopPropagation();
         event.preventDefault();
         if (!(errorNull || errorMail || errorPhone)) {
             $.ajax({
-                url: $("#form").attr('action')+'?ajax',
+                url: $("#form").attr('action') + '?ajax',
                 data: JSON.stringify({
                     name: $('#name').val(),
                     email: $('#email').val(),
@@ -172,13 +147,13 @@
                 dataType: "json",
                 contentType: "application/json; charset=utf-8"
             })
-                .done(function(json){
+                .done(function (json) {
                     $('#send').notify("Your message is sent", "success")
                 })
-                .fail(function(xhr, status, errorThrown){
-                    console.log( "Error: " + errorThrown );
-                    console.log( "Status: " + status );
-                    console.dir( xhr );
+                .fail(function (xhr, status, errorThrown) {
+                    console.log("Error: " + errorThrown);
+                    console.log("Status: " + status);
+                    console.dir(xhr);
                     $('#send').notify("Please check you data", "error")
                 })
         } else {
@@ -187,6 +162,5 @@
     });
 
 </script>
-
 </body>
 </html>
