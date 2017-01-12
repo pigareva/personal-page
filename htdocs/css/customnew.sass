@@ -10,6 +10,8 @@ $break-sm: 480px
   color: #00EE00
 .orange
   color: #CD661D
+  @media print
+    font-weight: bold
 
 a:focus,
 a:hover
@@ -133,6 +135,12 @@ hr
     display: none
     float: left
     text-align: left
+
+#language-sm
+  margin: 9px
+  @media (min-width: $break-md)
+    display: none
+
 
 .navbar-inverse
   background: linear-gradient(to top, #787d88 0%, #4e5156 36%, #15191e 100%)
