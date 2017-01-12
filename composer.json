@@ -1,7 +1,8 @@
 {
     "name": "kroshka/website",
     "require": {
-        "swiftmailer/swiftmailer": "^5.4"
+        "swiftmailer/swiftmailer": "^5.4",
+        "aazon/sfm": "dev-master"
     },
     "authors": [
         {

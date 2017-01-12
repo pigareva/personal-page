@@ -51,8 +51,8 @@
 <br>
 
         <p>
-            You can also find me on <a href="https://www.facebook.com/pigareva.olga"> Facebook</a> or <a
-                href="https://de.linkedin.com/in/olgapigareva">Linkedin</a>.
+            You can also find me on <a href="https://github.com/pigareva">Github</a> or <a
+                href="https://www.xing.com/profile/Olga_Pigareva">Xing</a>.
             <br><br>
         </p>
             <h4>Other contacts</h4>
@@ -84,7 +84,109 @@
 
 <!--# include file="/partial/scripts.html" -->
 
+<script>
 
+    $.notify.defaults( {
+        autoHideDelay: 5000
+    } );
+
+    var errorNull = true, errorMail = true, errorPhone = true;
+
+    var checkNull = function(){
+        $(this).val($(this).val().trim());
+        if ($(this).val() =="") {
+            $(this).notify("Complete the field", "error");
+            $(this).addClass("errtextbox");
+            errorNull = true;
+        } else {
+            errorNull = false;
+            $(this).removeClass("errtextbox");
+        }
+    };
+
+    $("#name").focusout(checkNull);
+
+    $("#email").focusout(checkNull);
+
+    $("#name").keyup(function(){
+        var value = $(this).val();
+        if (value.length > 24){
+            $(this).notify("25 symbols maximum", "info");
+            $(this).val(value.slice(0,24));
+        }
+        if (value.length < 3){
+            $(this).notify("3 symbols minimum", "info");
+
+        }
+    });
+
+    $("#email").focusout(function(){
+
+        var value = $(this).val().trim();
+        if (value.search(/^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$/) != 0) {
+            $(this).notify("E-mail isn't correct", "error");
+            $(this).addClass("errtextbox");
+            errorMail = true;
+        } else {
+            $(this).removeClass("errtextbox");
+            errorMail = false;
+        }
+    });
+
+    $("#phone").focusout(function(){
+        var value = $(this).val().trim();
+        if (value.search(/^[-+0-9()\s]+$/) != 0) {
+            $(this).notify("Phone number isn't correct", "error");
+            $(this).addClass("errtextbox");
+            errorPhone = true;
+        } else {
+            if (value.length < 6){
+                $(this).notify("5 symbols minimum", "info");
+            }else {
+                $(this).removeClass("errtextbox");
+                errorPhone = false;
+            }
+        }
+    });
+
+    $("#message").keyup(function(){
+        var value = $(this).val();
+        if (value.length < 11){
+            $(this).notify("Write a message", "info");
+        }
+    });
+
+    $("#send").click(function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if (!(errorNull || errorMail || errorPhone)) {
+            $.ajax({
+                url: $("#form").attr('action')+'?ajax',
+                data: JSON.stringify({
+                    name: $('#name').val(),
+                    email: $('#email').val(),
+                    phone: $('#phone').val(),
+                    message: $('#message').val()
+                }),
+                type: "POST",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8"
+            })
+                .done(function(json){
+                    $('#send').notify("Your message is sent", "success")
+                })
+                .fail(function(xhr, status, errorThrown){
+                    console.log( "Error: " + errorThrown );
+                    console.log( "Status: " + status );
+                    console.dir( xhr );
+                    $('#send').notify("Please check you data", "error")
+                })
+        } else {
+            $(this).notify("Please check you data", "error");
+        }
+    });
+
+</script>
 
 </body>
 </html>

@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05901fa79cba512c47d46f3c59437038",
+    "hash": "6cc5608840f636c3404fc7efffb14c2a",
+    "content-hash": "578468580eca95d1bba04905f0ef2b35",
     "packages": [
+        {
+            "name": "aazon/sfm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aazon/sfm.git",
+                "reference": "fb2baeaddd43aad2ce7f5ce3c5b794447dc52595"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aazon/sfm/zipball/fb2baeaddd43aad2ce7f5ce3c5b794447dc52595",
+                "reference": "fb2baeaddd43aad2ce7f5ce3c5b794447dc52595",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.30"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SFM_": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Litvinenko",
+                    "email": "litvinenkoalex@gmail.com"
+                }
+            ],
+            "description": "Smart Funky Mapping",
+            "time": "2016-07-11 20:07:00"
+        },
         {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.1",
@@ -63,7 +103,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "aazon/sfm": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

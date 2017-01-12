@@ -6,7 +6,7 @@ $response = '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $body = file_get_contents('php://input');
-    if (null === ($post = json_decode($body))) {
+    if (null === ($post = json_decode($body, true))) {
         throw new Exception('Bad json');
     }
 	try {
@@ -15,28 +15,28 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		}
 		$email = trim($post['email']);
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			throw new Exception('Invalid email');
+			throw new Exception('email');
 		}
 
 		if (!isset($post['name'])) {
-			throw new Exception('Missing name');
+			throw new Exception('name');
 		}
 		$name = trim($post['name']);
-		if (mb_strlen($name) < 4) {
-			throw new Exception('Name is too short');
+		if (mb_strlen($name) < 3) {
+			throw new Exception('name');
 		}
 
 		if (isset($post['phone'])) {
 			$phone = trim($post['phone']);
-			if (mb_strlen($phone) < 7) {
-				throw new Exception('Phone number is too short');
+			if (mb_strlen($phone) < 5) {
+				throw new Exception('phone');
 			}
 		} else {
 			$phone = 'none';
 		}
 
 		if (!isset($post['message'])) {
-			throw new Exception('Missing message');
+			throw new Exception('message');
 		}
 		$message = trim($post['message']);
 		if (mb_strlen($message) < 10) {

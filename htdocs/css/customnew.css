@@ -40,7 +40,7 @@ body {
   @media (max-width: 768px) {
     body {
       margin: 0;
-      background: url("/images/backgroundsmall.jpg") fixed no-repeat; } }
+      background: url("../images/backgroundsmall.jpg") fixed no-repeat; } }
 
 .navbar-brand {
   display: none; }
@@ -90,6 +90,10 @@ hr {
   border: 0;
   border-top: 2px solid #151515;
   border-bottom: 2px solid #000000; }
+
+.my-flex-container {
+  display: flex;
+  justify-content: space-between; }
 
 #olga {
   font-size: 200%;
@@ -286,8 +290,10 @@ button {
   button .button:hover {
     border-color: #192023;
     border-bottom: #19222D;
-    background-color: #353D47;
-    color: #00EE00; }
+    background-color: #353D47; }
+
+.btn:hover {
+  color: #fff; }
 
 .well {
   background: #101518;
