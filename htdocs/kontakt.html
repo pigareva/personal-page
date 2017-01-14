@@ -81,10 +81,6 @@
         }
     };
 
-    $("#name").focusout(checkNull);
-
-    $("#email").focusout(checkNull);
-
     $("#name").keyup(function(){
         var value = $(this).val();
         if (value.length > 24){
@@ -95,7 +91,7 @@
             $(this).notify("Minimal 3 Zeichnens", "info");
 
         }
-    });
+    }).focusout(checkNull);
 
     $("#email").focusout(function(){
 
@@ -108,7 +104,7 @@
             $(this).removeClass("errtextbox");
             errorMail = false;
         }
-    });
+    }).focusout(checkNull);
 
     $("#phone").focusout(function(){
         var value = $(this).val().trim();
