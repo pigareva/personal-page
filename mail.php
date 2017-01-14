@@ -2,9 +2,11 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+$config = include_once __DIR__ . '/config.php';
+
 $transport = Swift_SmtpTransport::newInstance('smtp.yandex.ru', 465, 'ssl')
-  ->setUsername('noreply@pigareva.de')
-  ->setPassword('wap5oD2Lold4aUg3')
+  ->setUsername($config['username'])
+  ->setPassword($config['password'])
 ;
 
 $mailer = Swift_Mailer::newInstance($transport);
