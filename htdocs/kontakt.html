@@ -72,7 +72,7 @@
     var checkNull = function(){
         $(this).val($(this).val().trim());
         if ($(this).val() =="") {
-            $(this).notify("Es soll nicht lehr sein", "error");
+            $(this).notify("Es soll nicht leer sein", "error");
             $(this).addClass("errtextbox");
             errorNull = true;
         } else {
@@ -84,11 +84,11 @@
     $("#name").keyup(function(){
         var value = $(this).val();
         if (value.length > 24){
-            $(this).notify("Maximal 25 Zeichnens", "info");
+            $(this).notify("Maximal 25 Zeichen", "info");
             $(this).val(value.slice(0,24));
         }
         if (value.length < 3){
-            $(this).notify("Minimal 3 Zeichnens", "info");
+            $(this).notify("Mindestens 3 Zeichen", "info");
 
         }
     }).focusout(checkNull);
@@ -97,7 +97,7 @@
 
         var value = $(this).val().trim();
         if (value.search(/^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$/) != 0) {
-            $(this).notify("E-mail ist nicht korrekt", "error");
+            $(this).notify("E-Mail ist nicht korrekt", "error");
             $(this).addClass("errtextbox");
             errorMail = true;
         } else {
@@ -114,7 +114,7 @@
             errorPhone = true;
         } else {
             if (value.length < 6){
-                $(this).notify("Minimal 5 Zeichnens", "info");
+                $(this).notify("Mindestens 5 Zeichen", "info");
             }else {
                 $(this).removeClass("errtextbox");
                 errorPhone = false;
