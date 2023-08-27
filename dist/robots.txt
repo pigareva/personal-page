@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /partial/
+
+Host: http://www.pigareva.de
+Sitemap: http://www.pigareva.de/sitemap.xml
