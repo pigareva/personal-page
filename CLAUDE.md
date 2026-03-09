@@ -2,6 +2,7 @@
 
 ## Project Overview
 
+
 Astro-based personal portfolio/profile site. Bilingual (French default - > we will chenge it to German, English), deployed on Vercel.
 
 ## Tech Stack
